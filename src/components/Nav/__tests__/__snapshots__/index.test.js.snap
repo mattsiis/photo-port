@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About component matches snapshot DOM node structure 1`] = `
+<DocumentFragment>
+  <header
+    class="flex-row"
+  >
+    <h2>
+      <span
+        aria-label="camera"
+        role="img"
+      />
+       Oh Snap!
+    </h2>
+    <nav>
+      <ul
+        class="flex-row"
+      >
+        <li
+          class="mx-2"
+        >
+          <a
+            href="#about"
+          >
+            About me
+          </a>
+        </li>
+        <li>
+          <span>
+            Contact
+          </span>
+        </li>
+        <li
+          class="mx-1"
+        >
+          <span>
+            commercial
+          </span>
+        </li>
+        <li
+          class="mx-1"
+        >
+          <span>
+            portraits
+          </span>
+        </li>
+        <li
+          class="mx-1"
+        >
+          <span>
+            food
+          </span>
+        </li>
+        <li
+          class="mx-1"
+        >
+          <span>
+            landscape
+          </span>
+        </li>
+      </ul>
+    </nav>
+  </header>
+</DocumentFragment>
+`;

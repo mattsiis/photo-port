@@ -17,13 +17,13 @@ const categories = [
 function Nav() {
     return (
         <header className='flex-row'>
-            <h2>
+            <h2 data-testid="link" href="/">
                 <span role="img" aria-label="camera"></span> Oh Snap!
             </h2>
             <nav>
                 <ul className="flex-row">
                     <li className='mx-2'>
-                        <a href="#about">
+                        <a data-testid="about" href="#about">
                             About me
                         </a>
                     </li>

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 // import Modal from '../Modal';
 
 
-const PhotoList = ({ category}) => {
+const PhotoList = ({ category }) => {
     const [photos] = useState([
         {
             name: 'Grocery aisle',
@@ -102,6 +102,9 @@ const PhotoList = ({ category}) => {
     ]);
 
     const currentPhotos = photos.filter((photo) => photo.category === category);
+
+    console.log(photos)
+    
 
     return (
         <div>
